@@ -43,9 +43,9 @@ Change the parameters appropriately. Materials can be added. Note that the numbe
 
 Create the file `run.jl` with the following contents:
 ```
-pkg"add https://github.com/PetrKryslUCSD/Comsol2FinEtoolsModel.jl.git")
-using Pkg; Pkg.activate("Comsol2FinEtoolsModel"); Pkg.instantiate()
-using Comsol2FinEtoolsModel: solve_ep
+using Pkg; 
+Pkg.activate("."); Pkg.instantiate()
+using FinEtoolsMultimaterialVibEP: solve_ep
 
 # The name of the parameter file is up to you
 parameterfile = "twoblocks.json"
