@@ -2,6 +2,17 @@
 
 Summary: Run the solution of the free vibration problem for multimaterial domains created in Comsol.
 
+## Setting up the folder
+
+Clone this repository as
+```
+git clone https://github.com/PetrKryslUCSD/RunMultimaterialVibEP.jl.git
+```
+This will create a folder by the name `RunMultimaterialVibEP.jl` in the current directory. This folder may be renamed arbitrarily. In the present example we rename this folder to `TwoBlocks`.
+
+Now change your working directory to the folder  `TwoBlocks`.
+
+
 ## Set up the simulation
 
 ### Create the mesh
@@ -58,6 +69,7 @@ Note that the name of the parameter JSON file is the one created in the previous
 
 ## Run the simulation
 
+Make sure your working directory is the folder  `TwoBlocks` as set up  by the cloning of this repository.
 Run the script  `run.jl` in Julia as follows
 ```
 julia run.jl
