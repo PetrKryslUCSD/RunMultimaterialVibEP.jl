@@ -19,6 +19,9 @@ Now change your working directory to the folder  `TwoBlocks`.
 
 Use Comsol to create a mesh. Make sure to create materials for each material domain and  assign the material to the domain. The material parameters don't matter: the materials are not exported themselves. Just the mesh. Remember the numbers of the materials (1, 2, ...): the parameter file  will need to refer to these numbers.
 
+
+A note about units: Comsol allows us to control the physical units. However, during export that information is lost. It is not clear how the data in the exported file is associated with units. I've only tried SI units with lengths in meters. The export was in meters.
+
 ### Export  the mesh
 
 Export the mesh as a NASTRAN file. Use the settings shown in this image:
@@ -50,6 +53,8 @@ Create the parameter file for the simulation. Call this file whatever you wish. 
 }
 ```
 Change the parameters appropriately. Materials can be added. Note that the numbers of the materials in the Comsol model are recorded here as strings. 
+
+A note about units: The units for the materials needs to be consistent with the units for the lengths in the mesh file.
 
 ## Edit the script to run the simulation
 
