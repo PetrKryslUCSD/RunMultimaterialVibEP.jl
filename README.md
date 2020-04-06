@@ -85,12 +85,12 @@ When the script finishes, it prints the computed natural frequencies, and it wri
 
 ## Results
 
-Assuming as above that the parameter file was called  `"twoblocks.json"`, the following files will be produced:
+Assuming as above that the parameter file was called  `"twoblocks.json"`, the output is written in the Matlab format into `twoblocks.mat`.  The following quantities are included:
 
-- Eigenvalues. The file   `twoblocks-eval.mat` holds the angular frequencies squared.
-- Eigenvectors. The files `twoblocks-evec1.mat` to `twoblocks-evecN.mat`, where N is the number of requested eigenvalues, hold the individual eigenvectors.
-- The surface panels. The surface mesh is recorded in the files `twoblocks-surface.mesh` (definition of the mesh properties),   `twoblocks-surface-conn.dat` (connectivity of the surface panels), `twoblocks-surface-xyz.dat` (coordinates of all the nodes in the mesh).  
-- Areas of the surface panels. The file `twoblocks-areas.mat` records the areas of the surface panels in the order in which the connectivity is given.
-- Acoustic coupling matrix. The file `twoblocks-G.mat` stores the sparse matrix in three columns that define the vectors I, J, V that can be passed to the function that constructs a sparse matrix from a triple vectors.
+- Eigenvalues. 
+- Eigenvectors. 
+- The surface panels. The connectivity `conn` (connectivity of the surface panels), and the coordinates `X` (coordinates of all the nodes in the mesh).  
+- Areas of the surface panels in the order in which the connectivity is given.
+- Acoustic coupling sparse matrix. 
 
 
