@@ -2,7 +2,7 @@
 
 julia_version = "1.8.0"
 manifest_format = "2.0"
-project_hash = "2d55f366d2cd91ffe9bd2a6a22414a1f6eb4f04d"
+project_hash = "e7eb47c850a4450c50a4127ef59c682e9c13fb3b"
 
 [[deps.Adapt]]
 deps = ["LinearAlgebra"]
@@ -198,10 +198,9 @@ uuid = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
 version = "1.4.1"
 
 [[deps.Contour]]
-deps = ["StaticArrays"]
-git-tree-sha1 = "9f02045d934dc030edad45944ea80dbd1f0ebea7"
+git-tree-sha1 = "d05d9e7b7aedff4e5b51a029dced05cfb6125781"
 uuid = "d38c429a-6771-53c6-b99e-75d170b6e991"
-version = "0.5.7"
+version = "0.6.2"
 
 [[deps.CpuId]]
 deps = ["Markdown"]
@@ -215,9 +214,9 @@ uuid = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
 version = "4.1.1"
 
 [[deps.DataAPI]]
-git-tree-sha1 = "fb5f5316dd3fd4c5e7c30a24d50643b73e37cd40"
+git-tree-sha1 = "1106fa7e1256b402a86a8e7b15c00c85036fef49"
 uuid = "9a962f9c-6df0-11e9-0e5d-c546b8b5ee8a"
-version = "1.10.0"
+version = "1.11.0"
 
 [[deps.DataDrop]]
 deps = ["HDF5", "JSON", "Revise", "SparseArrays", "Test"]
@@ -317,11 +316,11 @@ version = "1.4.3"
 
 [[deps.FinEtoolsMultimaterialVibEP]]
 deps = ["Arpack", "DelimitedFiles", "FinEtools", "FinEtoolsAcoustics", "FinEtoolsDeforLinear", "JSON", "LinearAlgebra", "MAT", "Printf", "Random", "Revise", "SparseArrays", "Statistics", "Test"]
-git-tree-sha1 = "58580cfaa8c2024010adcb74c2dd6bb950d1c418"
+git-tree-sha1 = "1020fa941159ef0d198106efd2f39c6027fd3434"
 repo-rev = "master"
 repo-url = "https://github.com/PetrKryslUCSD/FinEtoolsMultimaterialVibEP.jl.git"
 uuid = "924b30c9-72fd-43b6-97c0-022972fd2000"
-version = "0.2.0"
+version = "0.3.0"
 
 [[deps.FixedPointNumbers]]
 deps = ["Statistics"]
@@ -349,9 +348,9 @@ version = "2.10.4+0"
 
 [[deps.FreeTypeAbstraction]]
 deps = ["ColorVectorSpace", "Colors", "FreeType", "GeometryBasics"]
-git-tree-sha1 = "b5c7fe9cea653443736d264b85466bad8c574f4a"
+git-tree-sha1 = "38a92e40157100e796690421e34a11c107205c86"
 uuid = "663a7486-cb36-511b-a19d-713bb74d65c9"
-version = "0.9.9"
+version = "0.10.0"
 
 [[deps.FunctionalCollections]]
 deps = ["Test"]
@@ -933,10 +932,10 @@ version = "1.0.2"
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
 [[deps.UnicodePlots]]
-deps = ["ColorTypes", "Contour", "Crayons", "Dates", "FileIO", "FreeTypeAbstraction", "LazyModules", "LinearAlgebra", "MarchingCubes", "NaNMath", "Printf", "SparseArrays", "StaticArrays", "StatsBase", "Unitful"]
-git-tree-sha1 = "ae67ab0505b9453655f7d5ea65183a1cd1b3cfa0"
+deps = ["ColorSchemes", "ColorTypes", "Contour", "Crayons", "Dates", "FileIO", "FreeTypeAbstraction", "LazyModules", "LinearAlgebra", "MarchingCubes", "NaNMath", "Printf", "Requires", "SnoopPrecompile", "SparseArrays", "StaticArrays", "StatsBase", "Unitful"]
+git-tree-sha1 = "c14d0cb5132b74cd7d4ff02b551ef144e9b42396"
 uuid = "b8865327-cd53-5732-bb35-84acbb429228"
-version = "2.12.4"
+version = "3.1.1"
 
 [[deps.Unitful]]
 deps = ["ConstructionBase", "Dates", "LinearAlgebra", "Random"]
@@ -946,9 +945,9 @@ version = "1.12.0"
 
 [[deps.VectorizationBase]]
 deps = ["ArrayInterface", "CPUSummary", "HostCPUFeatures", "IfElse", "LayoutPointers", "Libdl", "LinearAlgebra", "SIMDTypes", "Static"]
-git-tree-sha1 = "9765c9389978f4c5a2c9c25dce4cef7c0f51dce3"
+git-tree-sha1 = "17b6042564eecf893aa893af94ec9ede4ddb307b"
 uuid = "3d5dd08c-fd9d-11e8-17fa-ed2836048c2f"
-version = "0.21.48"
+version = "0.21.49"
 
 [[deps.WebIO]]
 deps = ["AssetRegistry", "Base64", "Distributed", "FunctionalCollections", "JSON", "Logging", "Observables", "Pkg", "Random", "Requires", "Sockets", "UUIDs", "WebSockets", "Widgets"]
@@ -970,9 +969,9 @@ version = "0.6.6"
 
 [[deps.WriteVTK]]
 deps = ["Base64", "CodecZlib", "FillArrays", "LightXML", "TranscodingStreams"]
-git-tree-sha1 = "30931c1c40a1ac95063334c50ceafa54d82ca8c0"
+git-tree-sha1 = "f50c47d715199601a54afdd5267f24c8174842ae"
 uuid = "64499a7a-5c06-52f2-abe2-ccb03c286192"
-version = "1.15.1"
+version = "1.16.0"
 
 [[deps.XML2_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libiconv_jll", "Pkg", "Zlib_jll"]
