@@ -1,0 +1,13 @@
+{
+    "meshfile": "Cyl_W_Hole.nas",
+    "neigvs": 170,
+    "frequencyshift": 10.0,
+    "materials": {
+        "1": {
+            "name": "Aluminum",
+            "E": 6.9e10,
+            "nu": 0.33,
+            "rho": 2730.0
+        }
+    }
+}
