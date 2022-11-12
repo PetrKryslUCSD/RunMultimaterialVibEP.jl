@@ -2,7 +2,7 @@
 
 julia_version = "1.8.2"
 manifest_format = "2.0"
-project_hash = "6d5382d65ce846c0341f66c65649fb45250836b7"
+project_hash = "ea884df4861deb0a74f6fb747be14db18fd33de9"
 
 [[deps.Adapt]]
 deps = ["LinearAlgebra"]
@@ -251,9 +251,9 @@ version = "1.1.0"
 
 [[deps.DiffRules]]
 deps = ["IrrationalConstants", "LogExpFunctions", "NaNMath", "Random", "SpecialFunctions"]
-git-tree-sha1 = "9a95659c283c9018ea99e017aa9e13b7e89fadd2"
+git-tree-sha1 = "c5b6685d53f933c11404a3ae9822afe30d522494"
 uuid = "b552c78f-8df3-52c6-915a-8e097449b14b"
-version = "1.12.1"
+version = "1.12.2"
 
 [[deps.Distributed]]
 deps = ["Random", "Serialization", "Sockets"]
@@ -299,17 +299,17 @@ version = "1.2.1"
 
 [[deps.FinEtoolsDeforLinear]]
 deps = ["Arpack", "FinEtools", "LinearAlgebra", "Revise", "SparseArrays", "Statistics", "StatsBase", "SuiteSparse", "Test"]
-git-tree-sha1 = "e316d2485527529073dfb2c907e4d7f92c8f76a4"
+git-tree-sha1 = "61b1df07b8117df57a3ce174a9668fbc73d84ac2"
 uuid = "e9187c00-8bdd-11e9-1e70-7ba8303116a2"
-version = "1.4.3"
+version = "1.4.6"
 
 [[deps.FinEtoolsMultimaterialVibEP]]
-deps = ["Arpack", "DelimitedFiles", "FinEtools", "FinEtoolsAcoustics", "FinEtoolsDeforLinear", "JSON", "LinearAlgebra", "MAT", "Printf", "Random", "Revise", "SparseArrays", "Statistics", "Test"]
-git-tree-sha1 = "e639171ecf0e941b90348810070d113cd3521fd2"
+deps = ["Arpack", "DataDrop", "DelimitedFiles", "FinEtools", "FinEtoolsAcoustics", "FinEtoolsDeforLinear", "JSON", "LinearAlgebra", "MAT", "Printf", "Random", "Revise", "SparseArrays", "Statistics", "Test"]
+git-tree-sha1 = "873e3a6c239175253ccaa571db45eda1c028d396"
 repo-rev = "master"
 repo-url = "https://github.com/PetrKryslUCSD/FinEtoolsMultimaterialVibEP.jl.git"
 uuid = "924b30c9-72fd-43b6-97c0-022972fd2000"
-version = "0.4.1"
+version = "0.4.6"
 
 [[deps.FixedPointNumbers]]
 deps = ["Statistics"]
@@ -319,9 +319,9 @@ version = "0.8.4"
 
 [[deps.ForwardDiff]]
 deps = ["CommonSubexpressions", "DiffResults", "DiffRules", "LinearAlgebra", "LogExpFunctions", "NaNMath", "Preferences", "Printf", "Random", "SpecialFunctions", "StaticArrays"]
-git-tree-sha1 = "187198a4ed8ccd7b5d99c41b69c679269ea2b2d4"
+git-tree-sha1 = "10fa12fe96e4d76acfa738f4df2126589a67374f"
 uuid = "f6369f11-7733-5829-9624-2563aa707210"
-version = "0.10.32"
+version = "0.10.33"
 
 [[deps.FreeType]]
 deps = ["CEnum", "FreeType2_jll"]
@@ -888,9 +888,9 @@ uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
 [[deps.UnicodePlots]]
 deps = ["ColorSchemes", "ColorTypes", "Contour", "Crayons", "Dates", "FileIO", "FreeType", "LinearAlgebra", "MarchingCubes", "NaNMath", "Printf", "Requires", "SnoopPrecompile", "SparseArrays", "StaticArrays", "StatsBase", "Unitful"]
-git-tree-sha1 = "e9bd3ead50b5767f7525e4a52dc8e4d90ef65f0a"
+git-tree-sha1 = "0650fc38512395913e0bba8626513cbf90811f6e"
 uuid = "b8865327-cd53-5732-bb35-84acbb429228"
-version = "3.2.0"
+version = "3.2.2"
 
 [[deps.Unitful]]
 deps = ["ConstructionBase", "Dates", "LinearAlgebra", "Random"]
@@ -906,9 +906,9 @@ version = "0.21.54"
 
 [[deps.WebIO]]
 deps = ["AssetRegistry", "Base64", "Distributed", "FunctionalCollections", "JSON", "Logging", "Observables", "Pkg", "Random", "Requires", "Sockets", "UUIDs", "WebSockets", "Widgets"]
-git-tree-sha1 = "a8bbcd0b08061bba794c56fb78426e96e114ae7f"
+git-tree-sha1 = "55ea1b43214edb1f6a228105a219c6e84f1f5533"
 uuid = "0f1e0344-ec1d-5b48-a673-e5cf874b6c29"
-version = "0.8.18"
+version = "0.8.19"
 
 [[deps.WebSockets]]
 deps = ["Base64", "Dates", "HTTP", "Logging", "Sockets"]

@@ -1,0 +1,41 @@
+{
+    "meshfile": "Heat_105_Max_12kHz.nas",
+    "neigvs": 250,
+    "frequencyshift": 100.0,
+    // "method": "ssit",
+    "verbose": true,
+    "tol": 1.0e-5,
+    "maxiter": 600,
+    "materials": {
+        "1": {
+            "name": "aluminum",
+            "E": 7.233e10,
+            "nu": 0.3508,
+            "rho": 2700.0
+        },
+
+        "2": {
+            "name": "aluminum",
+            "E": 7.233e10,
+            "nu": 0.3508,
+            "rho": 2700.0
+        },
+
+        "3": {
+            "name": "Steel",
+            "E": 1.9887e11,
+            "nu": 0.2974,
+            "rho": 7975.0
+        },
+
+        "4": {
+            "name": "aluminum",
+            "E": 7.233e10,
+            "nu": 0.3508,
+            "rho": 2700.0
+        }
+
+
+    },
+    "numinteriorpoints_fraction": 0.25
+}
