@@ -2,7 +2,7 @@
     "meshfile": "Heat_105_Max_12kHz.nas",
     "neigvs": 250,
     "frequencyshift": 100.0,
-    // "method": "ssit",
+    "method": "ssit",
     "verbose": true,
     "tol": 1.0e-5,
     "maxiter": 600,
