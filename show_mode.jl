@@ -1,6 +1,6 @@
 using Pkg; 
 Pkg.activate("."); Pkg.instantiate()
-using Revise
+
 using JSON
 using MAT
 using LinearAlgebra
@@ -12,8 +12,8 @@ using FinEtools.MeshExportModule.VTKWrite: vtkwrite
 using DataDrop
 
 # The name of the parameter file is up to you
-parameterfile = "Heat_105.json"
-mode = 11
+parameterfile = "Finned_81mm_Max_12kHz.json"
+mode = 8
 
 # parameterfile = "twoblocks.json"
 parameters = open(parameterfile, "r") do file
@@ -40,7 +40,6 @@ u.dofnums = DataDrop.retrieve_matrix(f, "/dofnums")
 u.nfreedofs = maximum(u.dofnums)
 
 scattersysvec!(u, E[:, mode])
-@show norm(u.values)
 File =  meshfilebase * "-mode-$(mode).vtu"
 # vtkwrite(File, fens, fes)
 vtkwrite(File, fens, fes; vectors=[("mode$mode", u.values)])
